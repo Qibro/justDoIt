@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "852360531826",
+    "firebase_url": "https://todolist-bb6a4.firebaseio.com",
+    "project_id": "todolist-bb6a4",
+    "storage_bucket": "todolist-bb6a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852360531826:android:01d6eedca2b2808024d7eb",
+        "android_client_info": {
+          "package_name": "com.example.justdoit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852360531826-fnu980lamg3bo3t0g333qo2t07j5j9ro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBypWyyVXH17izfBOCO4nHhBT_3fS3UyCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852360531826-fnu980lamg3bo3t0g333qo2t07j5j9ro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
