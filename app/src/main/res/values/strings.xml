@@ -14,4 +14,9 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="sign_up">Sign Up</string>
+    <string name="habits">Habits</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="to_do">To-do</string>
+    <string name="profile">Profile</string>
+    <string name="sign_out">Sign out</string>
 </resources>
