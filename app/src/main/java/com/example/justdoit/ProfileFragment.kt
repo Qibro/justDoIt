@@ -32,6 +32,5 @@ class ProfileFragment : Fragment() {
             startActivity(Intent(activity?.applicationContext, LoginActivity::class.java))
         }
     }
-
 }
 

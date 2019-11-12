@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Habits"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/et_habits_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/et_habits_notes"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:text="Habit Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <SeekBar
+        android:id="@+id/et_habits_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>
