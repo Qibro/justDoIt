@@ -72,7 +72,7 @@ class LoginActivity : AppCompatActivity() {
         if (currentUser != null) {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
-        }else{
+        } else {
             Toast.makeText(
                 baseContext, "Failed to Login, Try Again Later",
                 Toast.LENGTH_SHORT

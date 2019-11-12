@@ -16,11 +16,11 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_signup)
         auth = FirebaseAuth.getInstance()
 
-        btn_signup.setOnClickListener(){
+        btn_signup.setOnClickListener() {
             signUp()
         }
-        btn_intent_login.setOnClickListener(){
-            startActivity(Intent(this,LoginActivity::class.java))
+        btn_intent_login.setOnClickListener() {
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
     }
